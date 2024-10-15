@@ -1,0 +1,55 @@
+.connect-block__title {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 46px;
+  max-width: 435px;
+  @media(max-width: 500px){
+    width: 100%;
+    padding-top: 39px;
+  }
+}
+.connect-block__text {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  max-width: 435px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 46px;
+  @media(max-width: 500px){
+  width: 100%;
+  padding-bottom: 32px;
+}
+}
+.connect-block__button{
+  background: #81b3d2;
+  font-weight: 700;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 458px;
+  display: block;
+  color:  #FFFFFF;
+  border: none;
+  padding: 20px 0;
+  @media(max-width: 500px){
+    width: 100%;
+} 
+}
+  
+
+
+.connect-block__container {
+  margin-bottom: 66px;
+  margin-top: 61px;
+  @media(max-width: 500px){
+    padding-top: 39px;
+    padding-bottom: 32px;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+}
